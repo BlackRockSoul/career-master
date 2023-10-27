@@ -1,5 +1,5 @@
 {
-  "name": "userscript-typescript-template",
+  "name": "career-master",
   "version": "2.0.2",
   "description": "Template repo using Webpack and TypeScript to build your userscript for Tampermonkey and more extensions.",
   "main": "userscript/index.user.js",
@@ -11,15 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pboymt/userscript-typescript-template.git"
+    "url": "git+https://github.com/BlackRockSoul/career-master.git"
   },
   "keywords": [],
-  "author": "pboymt",
+  "author": "BlackRockSoul",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pboymt/userscript-typescript-template/issues"
-  },
-  "homepage": "https://github.com/pboymt/userscript-typescript-template#readme",
   "devDependencies": {
     "@types/node": "^18.15.11",
     "@types/prettier": "^2.7.0",
@@ -39,11 +35,7 @@
     "namespace": "http://tampermonkey.net/",
     "license": "https://opensource.org/licenses/MIT",
     "match": [
-      "https://github.com/*",
-      "https://www.baidu.com/*"
-    ],
-    "connect": [
-      "github.com"
+      "https://career.habr.com/vacancies*"
     ],
     "require": [],
     "grant": [
@@ -54,7 +46,5 @@
     "keyedResources": {}
   },
   "dependencies": {
-    "@trim21/gm-fetch": "^0.1.13",
-    "axios": "^1.3.6"
   }
 }
